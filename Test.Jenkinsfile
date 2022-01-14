@@ -6,6 +6,7 @@ pipeline {
             steps {
                 bat "cd C:\\"
                 bat "dir"
+                bat "tasklist"
             }
         }
     }
